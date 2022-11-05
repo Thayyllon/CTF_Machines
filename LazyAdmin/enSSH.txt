@@ -1,0 +1,13 @@
+[*] 10.10.5.211:22 - SSH - Using malformed packet technique
+[*] 10.10.5.211:22 - SSH - Starting scan
+[+] 10.10.5.211:22 - SSH - User 'root' found
+[!] No active DB -- Credential data will not be saved!
+[+] 10.10.5.211:22 - SSH - User 'toor' found
+[+] 10.10.5.211:22 - SSH - User 'admin' found
+[+] 10.10.5.211:22 - SSH - User 'administrator' found
+[+] 10.10.5.211:22 - SSH - User 'guest' found
+[+] 10.10.5.211:22 - SSH - User 'supervisor' found
+[+] 10.10.5.211:22 - SSH - User 'support' found
+[+] 10.10.5.211:22 - SSH - User 'backup' found
+[+] 10.10.5.211:22 - SSH - User 'mysql' found
+[+] 10.10.5.211:22 - SSH - User 'postgres' found

