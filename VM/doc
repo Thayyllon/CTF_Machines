@@ -1,0 +1,45 @@
+
+	open ports:
+
+		22 ssh
+		80 apache/2.4.18
+		8008 apache/2.4.18 http-title: KEEP OUT
+
+
+	robots.txt has 4 disallowed entries: /lookalivelowbridge /flag-numero-uno.txt
+	/lukeiamyourfather /6packsofb...soda
+
+	all these pages have some img files in them (except flag numero uno)
+
+	flag1: B34rcl4ws
+
+
+	directory fuzzing revealed /big.txt which had a wordlist (maybe useful for later)
+
+	/server-status has 403
+
+	source code on index page says:
+		backup copy is in big tom's home folder
+		
+		a tip to the company blog address in in
+		a youtube video which says 'hey prehistoric forest'
+
+
+	company blog is in callahan.ctf/prehistoricforest/
+
+	flag2: Z4l1nsky
+
+	login page on /prehistoricforest/wp-login.php
+	
+	shcokedrichard.jpg has an user comment 'ce154b5a8e59c89732bc25d6a2e6b90b' -> spanky
+
+	callahanbak.bak is the backup, its in big toms home folder, you need to log into it through SSH
+	it has a weird name, look at the lsit of users in the system
+
+	ftp login: nickburns
+	ftp passwd: easy enough to crack
+
+	ftp runs on port 65534
+
+	/NickIzL33t directory used to dump anything 
+	.zip of big tom's password
